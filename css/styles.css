@@ -865,7 +865,7 @@ background: #f4f4fd;
 }
 
 
-/*! --------------------------------------------------------- */
+! ---------------------------------------------------------
 
 @media screen and (min-width: 768px) {
         .container{
@@ -885,10 +885,10 @@ background: #f4f4fd;
         }
 
 
-        /* .features-box {
+        .features-box {
                 width: 356px;
                 height: 120px;
-                 */
+                
 }
         .fuatures-menu-item {
                 /* width: calc((100% - 24px) / 2); */

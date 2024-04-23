@@ -455,6 +455,13 @@ padding-bottom: 96px;
         transform: translateY(0);
 }
 
+
+.portfolio-menu-img{
+        display: block;
+        max-width: 100%;
+        height: auto;
+}
+
 .portfolio-menu-list{
         display: flex;
         flex-wrap: wrap;
@@ -977,8 +984,15 @@ padding-bottom: 96px;
         width: calc((100% - 24px) / 2);
         }
 
-        .portfolio-menu-item{
+        .portfolio-menu-item {
                 width: calc((100% - 24px) / 2);
+                justify-content: center;
+                max-width: 356px;
+                gap: 72px 24px;
+                }
+        
+        .portfolio-menu-list{
+                flex-direction: row;
         }
 
         .footer-flex{
